@@ -11,7 +11,7 @@ module PlutusCore
     , SourcePos
     , SrcSpan (..)
     , SrcSpans
-    -- * Builtins
+    -- * Builtins 2
     , Some (..)
     , SomeTypeIn (..)
     , Kinded (..)
@@ -140,7 +140,7 @@ import PlutusCore.Size
 import PlutusCore.TypeCheck as TypeCheck
 
 
--- | Take one PLC program and apply it to another.
+-- | Take one PLC program and apply it to another 2.
 applyProgram
     :: Monoid a
     => Program tyname name uni fun a
