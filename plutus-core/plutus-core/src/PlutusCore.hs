@@ -4,7 +4,7 @@
 
 module PlutusCore
     (
-      -- * Parser
+      -- * Parser 1
       parseProgram
     , parseTerm
     , parseType
